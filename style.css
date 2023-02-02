@@ -120,11 +120,75 @@ p{
     margin: 30px 0px;
  }
 
- section .elementos > div p{
+ section .elementos  div p{
     color: black;
+    
  }
 
 .texto-quienes{
     width: 900px;
     text-align: center;
+}
+
+.proyecto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  
+}
+
+
+.columna {
+    float: left;
+    width: 33%;
+    padding-right: 5px;
+}
+
+.fila{
+    margin-bottom: 50px;
+}
+.fila::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+section .proyecto div{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  
+    
+}
+
+.texto {
+    height: 80px;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 80px;
+ }
+
+ .work p.uno{
+    width: 300px;
+    text-align: center;
+ }
+
+section.servicios {
+    height: 250px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    
+    
 }
