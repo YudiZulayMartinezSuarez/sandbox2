@@ -11,6 +11,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
+   
 }
 
 nav{
@@ -20,6 +22,7 @@ nav{
     color: white;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 nav ul{
@@ -32,6 +35,10 @@ nav ul a{
     color: white;
     
 }
+/*
+.nav_links:hover{
+    border-radius: 3%;
+}*/
 
 .texto-heder{
     width: 100%;
@@ -191,4 +198,10 @@ footer{
     font-size: 15px;
     
     
+}
+
+@media (max-width: 922px){
+
+
+
 }
