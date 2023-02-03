@@ -35,10 +35,39 @@ nav ul a{
     color: white;
     
 }
-/*
+
+#boton:hover{
+    color: white;
+    background-color: black;
+}
+
 .nav_links:hover{
+    color: black;
+    background-color: #fd5531;
     border-radius: 3%;
-}*/
+    padding: 10px;
+}
+    
+#bn:hover{
+
+    color: black;
+    background-color: #a72407;
+
+}
+
+.columna:hover {
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    border-radius:50%;
+    box-shadow: 0px 0px 15px 15px aqua;
+    transform: rotate(360deg);
+    padding: 25px;
+
+
+}
+
+
+
 
 .texto-heder{
     width: 100%;
